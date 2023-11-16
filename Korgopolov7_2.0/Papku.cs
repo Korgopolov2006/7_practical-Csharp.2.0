@@ -89,7 +89,7 @@ namespace Korgopolov7_2._0
                         {
                             Console.Clear();
                             Console.WriteLine("Введите название файла , которую хотите удалить");
-                            DP.DP3(s);
+                            DP.DP4(s);
                         }
                         else if (position == -444)
                         {
