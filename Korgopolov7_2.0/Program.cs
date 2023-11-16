@@ -17,13 +17,14 @@ namespace Korgopolov7_2._0
 
         public static void Main()
         {
-			
+            try
+            {
                 while (true)
                 {
                     Console.Clear();
                     Console.WriteLine($"{"Этот компьютер",60}");
                     Console.WriteLine("".PadRight(120, '-'));
-                    
+
                     Console.SetCursorPosition(0, 2);
 
                     string[] array;
@@ -39,8 +40,14 @@ namespace Korgopolov7_2._0
                     Papku.Dirs(drives[pos - 2].Name);
 
                 }
-          
 
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+                
         }
     }
 }
